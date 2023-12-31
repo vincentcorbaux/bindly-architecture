@@ -1,6 +1,23 @@
+
+
 # Bindly: Book Recommendation App
 
 Welcome to the Bindly repository! Bindly is a book recommendation app designed to provide users with personalized book suggestions. The app uses Google Firebase as its cloud solution to ensure a seamless and secure experience for book enthusiasts.
+
+## Table of contents
+
+- [What is Bindly](#what-is-bindly)
+- [Architecture Overview](#architecture-overview)
+  - [General Schema](#general-schema)
+  - [Why Firebase?](#why-firebase-)
+  - [Overview of Firebase Firestore database](#overview-of-firebase-firestore-database)
+  - [How did we design our architecture?](#how-did-we-design-our-architecture)
+- [The Predictions](#the-predictions)
+  - [Ratings](#ratings)
+  - [Saving Old Predictions](#saving-old-predictions)
+- [Advantages of Our Architecture](#advantages-of-our-architecture)
+- [Contributors](#contributors)
+
 
 ## What is Bindly
 
@@ -15,13 +32,16 @@ The architecture of Bindly consists of a Flutter application connected to two se
 
 Once registred in the Authentification database, a user can then uses the application, which will write/creates/deletes documents on the Firestore document for this user.
 
+<img width="1226" alt="Screenshot 2023-12-31 at 14 42 13" src="https://github.com/vincentcorbaux/bindly-architecture/assets/110817242/2df8fd0b-c891-4e4a-8b8d-3ebfd98c9e5a">
+
 ### Why Firebase ?
 
 Firebase is a great cloud solution for Bindly, due to its versatility and ease of integration. Firebase offers a comprehensive suite of services, including authentication, hosting, and cloud functions. Its seamless integration with Flutter mobile applications ensures a smooth and efficient development process. The Firestore databases allows Bindly to dynamically update book recommendations based on user interactions. Additionally, Firebase Authentication provides a secure and hassle-free user login experience. The scalability of Firebase accommodates the growing user base of Bindly, while its intuitive console simplifies monitoring and management. Overall, Firebase empowers Bindly to deliver a reliable, scalable, and feature-rich book recommendation experience to users.
 
 ### Overview of Firebase Firestore database
 
-Insert schema
+<img width="1039" alt="Screenshot 2023-12-31 at 14 32 32" src="https://github.com/vincentcorbaux/bindly-architecture/assets/110817242/73110dc7-6bec-4859-ac53-f56c02620f62">
+
 
 ### How did we design our architecture?
 
