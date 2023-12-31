@@ -1,4 +1,4 @@
-<img width="70" alt="5B454739-9E91-409E-B30F-7EC67C959D2A" src="https://github.com/vincentcorbaux/bindly-architecture/assets/110817242/b036a0ae-4ca1-411c-8814-9fb7adbbe7bf">
+<img width="70" alt="logo_couleur" src="https://github.com/vincentcorbaux/bindly-architecture/assets/110817242/cb29f407-b84e-4c18-8308-be5d2dace972">
 
 # Bindly: Book Recommendation App
 
