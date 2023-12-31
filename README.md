@@ -1,4 +1,4 @@
-
+<img width="70" alt="5B454739-9E91-409E-B30F-7EC67C959D2A" src="https://github.com/vincentcorbaux/bindly-architecture/assets/110817242/b036a0ae-4ca1-411c-8814-9fb7adbbe7bf">
 
 # Bindly: Book Recommendation App
 
@@ -65,7 +65,7 @@ This system allows us to quickly retrieve which category and author are the most
 
 Once the algorithm has retrieved the weekly recommendations for the user, they are stored in the "Recommendations" collection. Hence, our application just has to take the most recent recommendations to the user. It allows us to have a quick and easy way to retrive information, reducing delay in the user experience. 
 
-## Avantages of our Architecture
+## Advantages of our Architecture
 The combination between Firebase and the different collections we have created ensures a smooth user's experience. 
 About the cost, Firestore bills after a certain number of documents written/read/deleted. Hence, it was important for us to minimize these interactions with the database.
 
@@ -78,6 +78,6 @@ About the cost, Firestore bills after a certain number of documents written/read
   - GitHub: [@benjaminchommaux](https://github.com/benjaminchommaux)
 
 - **Romane BARD:**
-  - GitHub: [@romanebard](https://github.com/romanebard)
+  - GitHub: [@romanebard71](https://github.com/romanebard71)
 
-A big thank you to all our contributors! 🚀
+Thanks to all contributors! 🚀
